@@ -122,8 +122,7 @@ export default function HomePage() {
                         className="flex items-center justify-center gap-3"
                       >
                         <CheckCircle
-                          className="check-circle"
-                          className="w-8 h-8 text-orange-400"
+                          className="check-circle w-8 h-8 text-orange-400"
                         />
                         <span className="text-lg text-gray-200">{it}</span>
                       </div>
