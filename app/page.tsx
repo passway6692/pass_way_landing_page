@@ -16,6 +16,7 @@ import {
   ChevronDown,
 } from "lucide-react";
 import { motion } from "framer-motion";
+
 import Image from "next/image";
 import { FaGooglePlay, FaAppStoreIos } from "react-icons/fa6";
 import Link from "next/link";
