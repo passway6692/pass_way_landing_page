@@ -1,5 +1,4 @@
 // app/terms/page.tsx
-import { motion } from "framer-motion";
 import ParticlesBackground from "@/components/ParticlesBackground";
 import { MotionDiv } from "@/components/MotionDiv";
 

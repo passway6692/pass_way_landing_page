@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-page-custom-font */
 // app/layout.tsx
 import type { Metadata } from "next";
 import { Cairo } from "next/font/google";
@@ -77,6 +78,7 @@ export default function RootLayout({
           href="https://fonts.googleapis.com/css2?family=Cairo:wght@700;900&family=Tajawal:wght@800;900&display=swap"
           rel="stylesheet"
         />
+        <meta name="msvalidate.01" content="180EE1D47272A99C3E0FCE1CCE0948F0" />
         {/* OG Image حقيقية (مهمة جدًا للسوشيال ميديا) */}
         <meta
           property="og:image"
