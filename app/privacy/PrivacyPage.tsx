@@ -1,13 +1,6 @@
 "use client";
 import ParticlesBackground from "@/components/ParticlesBackground";
-import {
-  Shield,
-  Lock,
-  EyeOff,
-  Smartphone,
-  Mail,
-  CheckCircle,
-} from "lucide-react";
+import { Shield, Lock, EyeOff, Mail, CheckCircle } from "lucide-react";
 import { motion } from "framer-motion";
 import Image from "next/image";
 import { MotionDiv } from "@/components/MotionDiv";
@@ -41,7 +34,7 @@ export default function PrivacyPage() {
         "ما بنخزنش بيانات بطاقتك البنكية",
       ],
     },
-  
+
     {
       icon: Mail,
       title: "حقوقك كمستخدم",
@@ -60,7 +53,7 @@ export default function PrivacyPage() {
       {/* Hero Section */}
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
         <Image
-          src="/privacy-bg.jpg" // صورة قفل ذكي، أو درع رقمي، أو بصمة إصبع، أو شاشة موبايل بقفل
+          src="/3.jpg" // صورة قفل ذكي، أو درع رقمي، أو بصمة إصبع، أو شاشة موبايل بقفل
           alt="سياسة الخصوصية - Pass Way"
           fill
           priority

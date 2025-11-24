@@ -75,13 +75,13 @@ export default function TermsPage() {
       {/* Hero Section */}
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
         <Image
-          src="/terms-bg.jpg"
+          src="/2.jpg"
           alt="الشروط والأحكام - Pass Way"
           fill
           priority
           className="object-cover brightness-70"
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-black via-black/90 to-black/70" />
+        <div className="absolute inset-0 bg-linear-to-t from-black via-black/90 to-black/70" />
 
         <motion.div
           initial={{ opacity: 0 }}
@@ -95,7 +95,7 @@ export default function TermsPage() {
             transition={{ duration: 1, ease: "easeOut" }}
           >
             <h1 className="text-7xl md:text-9xl lg:text-[12rem] font-black leading-tight mb-8">
-              <span className="bg-gradient-to-r from-orange-400 to-amber-500 bg-clip-text text-transparent">
+              <span className="bg-linear-to-r from-orange-400 to-amber-500 bg-clip-text text-transparent">
                 الشروط
               </span>{" "}
               <span className="text-white">&</span>
@@ -116,7 +116,7 @@ export default function TermsPage() {
       </section>
 
       {/* المحتوى الرئيسي */}
-      <section className="py-32 bg-gradient-to-b from-black to-slate-950 text-white">
+      <section className="py-32 bg-linear-to-b from-black to-slate-950 text-white">
         <div className="container mx-auto px-6 max-w-7xl">
           <div className="grid lg:grid-cols-2 gap-12">
             {terms.map((section, i) => (
@@ -129,7 +129,7 @@ export default function TermsPage() {
                 className="bg-white/5 backdrop-blur-xl rounded-3xl border border-orange-500/20 shadow-2xl overflow-hidden hover:border-orange-500/40 transition-all"
               >
                 <div
-                  className={`bg-gradient-to-r ${
+                  className={`bg-linear-to-r ${
                     section.color
                       ? section.color + "/20"
                       : "from-orange-500/20 to-amber-600/20"
@@ -148,7 +148,7 @@ export default function TermsPage() {
                 <div className="p-10 space-y-6 text-xl md:text-2xl text-gray-300">
                   {section.items.map((item, idx) => (
                     <div key={idx} className="flex items-start gap-4">
-                      <CheckCircle className="w-8 h-8 text-orange-400 flex-shrink-0 mt-1" />
+                      <CheckCircle className="w-8 h-8 text-orange-400 shrink-0 mt-1" />
                       <p className="leading-relaxed">{item}</p>
                     </div>
                   ))}
