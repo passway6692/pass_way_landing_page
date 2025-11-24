@@ -74,6 +74,34 @@ export default function RootLayout({
       suppressHydrationWarning
     >
       <head>
+        <meta
+          property="og:image"
+          content="https://passwayegy.com/og-image.jpg"
+        />
+        <meta
+          property="og:image"
+          content="https://passwayegy.com/og-image.jpg"
+        />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <meta
+          property="og:image:alt"
+          content="Pass Way - مشاوير يومية بسعر ثابت في مصر"
+        />
+        <meta property="og:image:type" content="image/jpeg" />
+
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+          name="twitter:image"
+          content="https://passwayegy.com/og-image.jpg"
+        />
+
+        {/* Force refresh cache لو غيرت الصورة */}
+        <meta
+          property="og:image:secure_url"
+          content="https://passwayegy.com/og-image.jpg"
+        />
+
         <link
           href="https://fonts.googleapis.com/css2?family=Cairo:wght@700;900&family=Tajawal:wght@800;900&display=swap"
           rel="stylesheet"

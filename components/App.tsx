@@ -16,7 +16,7 @@ export default function HomePage() {
   return (
     <>
       {/* HERO SECTION */}
-      <section className="relative min-h-screen flex flex-col justify-center items-center overflow-hidden pt-20 md:pt-24">
+      <section className="relative min-h-screen flex flex-col justify-center items-center overflow-hidden  ">
         <Image
           src="/2.jpg"
           alt="Pass Way - حجز مشاوير يومية بسعر ثابت"
@@ -27,7 +27,7 @@ export default function HomePage() {
         <div className="absolute inset-0 bg-black/70" />
         <div className="absolute inset-0 bg-gradient-to-br from-orange-600/30 via-transparent to-slate-900/80" />
 
-        <div className="container mx-auto px-4 relative z-20 text-center text-white">
+        <div className="  px-4 relative z-20 text-center text-white">
           <motion.div
             initial={{ opacity: 0, y: 60 }}
             animate={{ opacity: 1, y: 0 }}
@@ -47,12 +47,12 @@ export default function HomePage() {
 
             <p className="text-4xl sm:text-6xl lg:text-7xl font-black mt-12 mb-12">
               <span className="bg-gradient-to-r from-white via-orange-200 to-amber-300 bg-clip-text text-transparent">
-                بس شكل أذكى وأوفر
+                بس شكل <span className="text-white">أذكى</span> وأوفر
               </span>
             </p>
 
             <p
-              className="text-xl md:text-3xl xl:text-4xl max-w-4xl mx-auto font-medium leading-relaxed px-4"
+              className="text-sm md:text-lg xl:text-xl max-w-4xl mx-auto font-medium leading-relaxed px-4"
               style={{ textShadow: "0 4px 30px rgba(0,0,0,0.9)" }}
             >
               احجز مشاويرك اليومية بطريقة مرنة ومنظمة وسعر ثابت من غير انتظار
