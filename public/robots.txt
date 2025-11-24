@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://passwayegy.com/sitemap.xml
