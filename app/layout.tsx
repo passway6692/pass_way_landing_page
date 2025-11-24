@@ -26,6 +26,9 @@ export const metadata: Metadata = {
   creator: "Pass Way",
   publisher: "Pass Way",
   metadataBase: new URL("https://passwayegy.com"),
+  icons: {
+    icon: "/favicon.ico",
+  },
 
   openGraph: {
     title: "Pass Way - مشاوير يومية أرخص وأذكى في مصر",
@@ -41,7 +44,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Pass Way - أرخص وأذكى مشاوير يومية في مصر",
     description: "سعر ثابت  دفع إلكتروني  إلغاء مجاني  حمل التطبيق الآن",
-    images: ["/logo.jpg"],
+    images: ["/og-image.jpg"],
   },
 
   robots: {
