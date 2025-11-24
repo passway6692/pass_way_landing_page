@@ -22,7 +22,6 @@ export default function HomePage() {
           alt="Pass Way - حجز مشاوير يومية بسعر ثابت"
           fill
           priority
-          quality={95}
           className="object-cover"
         />
         <div className="absolute inset-0 bg-black/70" />
@@ -121,9 +120,7 @@ export default function HomePage() {
                         key={idx}
                         className="flex items-center justify-center gap-3"
                       >
-                        <CheckCircle
-                          className="check-circle w-8 h-8 text-orange-400"
-                        />
+                        <CheckCircle className="check-circle w-8 h-8 text-orange-400" />
                         <span className="text-lg text-gray-200">{it}</span>
                       </div>
                     ))}

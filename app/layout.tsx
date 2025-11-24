@@ -100,11 +100,11 @@ export default function RootLayout({
           {/* Particles في الخلفية لكل الموقع */}
           <ParticlesBackground />
 
-          {/* الهيدر ثابت فوق كل الصفحات */}
           <Header />
 
-          {/* المحتوى مع انتقال سلس */}
-          <main className="relative z-20">{children}</main>
+          <main className="relative z-20 pt-28 md:pt-32 lg:pt-36">
+            {children}
+          </main>
         </ThemeProvider>
       </body>
     </html>

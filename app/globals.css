@@ -123,3 +123,23 @@
     @apply bg-background text-foreground;
   }
 }
+
+html {
+  --header-height: 120px;
+}
+
+@media (min-width: 768px) {
+  html {
+    --header-height: 130px;
+  }
+}
+
+@media (min-width: 1024px) {
+  html {
+    --header-height: 140px;
+  }
+}
+
+.scrolled {
+  --header-height: 90px !important;
+}
