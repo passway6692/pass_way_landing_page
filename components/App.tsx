@@ -18,7 +18,7 @@ export default function HomePage() {
       {/* HERO SECTION */}
       <section className="relative min-h-screen flex flex-col justify-center items-center overflow-hidden pt-20 md:pt-24">
         <Image
-          src="/1.jpg"
+          src="/2.jpg"
           alt="Pass Way - حجز مشاوير يومية بسعر ثابت"
           fill
           priority
