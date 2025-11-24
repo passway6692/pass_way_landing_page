@@ -75,7 +75,7 @@ export default function HomePage() {
             <span className="bg-gradient-to-r from-orange-400 to-amber-500 bg-clip-text text-transparent">
               Pass
             </span>{" "}
-            Way؟
+            <span className="text-white">Way</span>
           </motion.h2>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-12 max-w-7xl mx-auto">
